@@ -4,8 +4,8 @@ const PublicComponent = React.createClass({
 	handleLogin: function(e){
 		e.preventDefault();
 
-			var email = this.refs.email.value;
-			var password = this.refs.password.value;
+			let email = this.refs.email.value;
+			let password = this.refs.password.value;
 
 			if (email.length < 4) {
 				alert('Please enter an email address.');
@@ -17,8 +17,8 @@ const PublicComponent = React.createClass({
 			}
 
 			firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-				var errorCode = error.code;
-				var errorMessage = error.message;
+				let errorCode = error.code;
+				let errorMessage = error.message;
 
 				if (errorCode === 'auth/wrong-password') {
 					alert('Wrong password.');
@@ -29,7 +29,7 @@ const PublicComponent = React.createClass({
 			});
 
 	},
-	render: function render() {
+	render() {
 		return (
 			<div>
 				<h3>PublicComponent</h3>

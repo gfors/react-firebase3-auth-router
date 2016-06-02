@@ -5,7 +5,7 @@ const PrivateComponent = React.createClass({
 		e.preventDefault();
 		firebase.auth().signOut();
 	},
-	render: function render() {
+	render() {
 		return (
 			<div>
 				<h3>PrivateComponent</h3>

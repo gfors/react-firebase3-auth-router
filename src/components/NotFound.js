@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFound = React.createClass({
 
-	render: function render() {
+	render() {
 		return (
 			<h1>404 Not found</h1>
 		);
