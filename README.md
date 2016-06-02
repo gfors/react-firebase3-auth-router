@@ -6,7 +6,7 @@ A simple starter for using Firebase 3 authentication in React with React Router.
 
 This is **not** a complete project. **No build tools or setup is included at all**. Choose your own build setup and use whichever combination of webpack/browserify/gulp etc that you want.
 
-* Currently there is no registration/sign-up included. This will be added.
+**Note:** Currently there is no registration/sign-up included. This will be added.
 
 ## Why?
 
