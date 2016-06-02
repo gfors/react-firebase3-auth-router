@@ -1,0 +1,31 @@
+{
+  "name": "react-firebase3-auth-router",
+  "version": "1.0.0",
+  "description": "A simple starter for using Firebase 3 authentication in React with React Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfors/react-firebase3-auth-router.git"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "firebase"
+  ],
+  "author": "Daniel Guldfors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfors/react-firebase3-auth-router/issues"
+  },
+  "homepage": "https://github.com/gfors/react-firebase3-auth-router#readme",
+  "dependencies": {
+    "firebase": "^3.0.3",
+    "history": "^3.0.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1"
+  }
+}
